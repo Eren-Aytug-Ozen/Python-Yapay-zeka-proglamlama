@@ -30,3 +30,26 @@ var4 ="100"
 var5 ="200"
 var6 =var4+var5
 uzunluk = len(var6)
+
+
+#%% Numbers
+#int double
+integer_deneme= -50
+#double = float = ondalikli sayi
+float_deneme = -30.7
+#%% build in function
+str1= "deneme"
+float1=10.1
+#float(10)
+#int(float1)
+#raund(float1)
+str2 = "1005"
+
+
+
+
+
+
+
+
+
