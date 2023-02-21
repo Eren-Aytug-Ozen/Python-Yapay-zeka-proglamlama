@@ -44,12 +44,69 @@ float1=10.1
 #int(float1)
 #raund(float1)
 str2 = "1005"
+#%% //user defined fanction
+
+var1 = 20
+var2 = 50
+
+output = (((var1+var2)*60)/100.0)*var1/var2
 
 
+#fonksiyon parametresi
+def benim_ilk_func(var1,var2):
+    """
+        bu benim ilk denemem
+    
+        parametre:
+        
+        return:
+    """
+    output = (((var1+var2)*60)/100.0)*var1/var2
+    
+    return output    
 
+sonuc = benim_ilk_func(var1,var2)
 
+def deneme1():
+    print("bu benim 2.denemem")
+    #%% default fanctionlari
+    
+    
+    
+    
+    #çemberin çevre uzunluğu = 2"pi"r
+    def cember_cevresi_hesapla(r,pi):
+        """
+        cember cevresi hesapla
+        input(paremetre):r,pi
+        output = cemberin cevresi
 
+        Parameters
+        ----------
+        r : TYPE
+            DESCRIPTION.
+        pi : TYPE
+            DESCRIPTION.
 
+        Returns
+        -------
+        None.
 
+        """
+        output =2*pi*r
+        return output
+    # flexible
+    
+    def hesapla(boy,kilo,*args):
+        print(args)
+        output = (boy+kilo)*args[0]
+        return output
+  
+    
+  
+    #def hesapla(boy,kilo,yas):
+        #output = (boy+kilo)*yas
+        #return outputtput
+#%% quiz
 
 
